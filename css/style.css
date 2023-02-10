@@ -77,6 +77,7 @@ body
     "posn1 posn1 posn2 posn2"
     "posn3 posn3 posn3 posn3"
 }
+
 .storyContainer
 {
     grid-area:posn1;
@@ -121,4 +122,15 @@ h3
 {
     color: aliceblue;
     text-align: center;
+}
+@media (max-width: 600px)
+{
+    #textContainer
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    #sub-images
+    {
+        grid-template-columns: 1fr;
+    }
 }
