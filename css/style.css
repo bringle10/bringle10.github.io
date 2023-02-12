@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 body
 {
     background-color: rgb(117, 32, 32);
@@ -53,6 +55,7 @@ body
 {
     text-align: center;
     padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*******About*******/
@@ -123,7 +126,7 @@ h3
     color: aliceblue;
     text-align: center;
 }
-@media (max-width: 600px)
+@media (max-width: 800px)
 {
     #textContainer
     {
@@ -132,5 +135,12 @@ h3
     #sub-images
     {
         grid-template-columns: 1fr;
+    }
+    .bottomLeft img
+    {   
+        padding-top: 220px;
+        padding-left: 10%;
+    
+        height: 500px;
     }
 }
